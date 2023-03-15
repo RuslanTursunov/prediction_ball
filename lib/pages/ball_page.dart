@@ -8,7 +8,9 @@ class BallPage extends StatelessWidget {
       backgroundColor: Colors.lightBlueAccent,
       appBar: AppBar(
         backgroundColor: Colors.lightBlue,
-        title: const Text('Ask Me Anything'),
+        title: const Center(
+          child: Text('Ask Me Anything'),
+        ),
       ),
       body: BallWidget(),
     );
