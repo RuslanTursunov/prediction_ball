@@ -5,6 +5,7 @@ import 'package:section_eightt/pages/ball_page.dart';
 void main() {
   runApp(
     MaterialApp(
+      debugShowCheckedModeBanner: false,
       home: BallPage(),
     ),
   );
